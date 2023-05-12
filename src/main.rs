@@ -6,6 +6,7 @@
 //! Implement --git, --vscode flags
 //! Make -i, -s HashSet initialization more elegant
 //! Make main iterator filter out ignores so that we can check if a file is the last in the tree.
+//! Implement --dirs flag
 
 use clap::Parser;
 use std::collections::HashSet;

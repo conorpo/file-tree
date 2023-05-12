@@ -15,6 +15,7 @@ file-tree [flags] [options]
 | --git | Include .git |
 | --vscode | Include .vscode |
 | -r, --root | Include parent directory in tree, and indent all other files |
+| -d, --dirs | Prioritize directories over files |
 
 ## Options
 
@@ -27,9 +28,15 @@ file-tree [flags] [options]
 ## Examples
 
 ```bash
-file-tree -i Cargo.lock -s target
+file-tree -i Cargo.lock -s target -r
 ```
 
 ```bash
-
+file-tree
+├─ .gitignore
+├─ Cargo.toml
+├─ README.md
+├─ src/
+│  └─ main.rs
+└─ target/
 ```
