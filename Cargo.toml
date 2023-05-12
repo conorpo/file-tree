@@ -2,10 +2,13 @@
 name = "project-tree"
 version = "0.1.0"
 edition = "2021"
-categories = ["command-line-utilities", "file-system"]
-license = "MIT"
+categories = ["command-line-utilities", "filesystem"]
+license = "MIT OR Apache-2.0"
 repository = "https://github.com/conorpo/project-tree"
 description = "A command-line utility to display a ascii tree of files and directories."
+readme = "README.md"
+authors = ["Conor O'Malley"]
+keywords = ["tree", "directory", "file", "ascii", "command-line"]
 
 [dependencies]
 clap = { version = "4.2.7", features = ["derive"] }
