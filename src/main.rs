@@ -104,7 +104,7 @@ fn main() -> io::Result<()>{
     }
     let current_dir = env::current_dir().unwrap().file_name().unwrap().to_str().unwrap().to_owned();
     let file_tree: String = scan_folder("./".into(), &ignore_list, &stop_list, if args.root {1} else {0}).unwrap().join("\n");
-    let file_tree = if args.root {format!("{}\n{}", current_dir, file_tree)} else {file_tree};
+    let file_tree = if args.root {format!("{}/\n{}", current_dir, file_tree)} else {file_tree};
    
     println!("{file_tree}");
     clipboard.set_contents(file_tree.clone()).unwrap();
