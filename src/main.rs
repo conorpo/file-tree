@@ -1,4 +1,4 @@
-//! # file-tree
+//! # project-tree
 //! 
 //! A simple ascii file tree generator. 
 //! 

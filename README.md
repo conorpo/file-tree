@@ -1,10 +1,10 @@
-# file-tree
+# project-tree
 
 A simple ascii file tree generator. Designed to be used in project root. By default it will print to stdout, and copy to clipboard. By default it will not recurse into node_modules, .git, or .vscode folders.
 ## Usage
 
 ```bash
-file-tree [flags] [options]
+project-tree [flags] [options]
 ```
 
 ## Flags
@@ -28,11 +28,11 @@ file-tree [flags] [options]
 ## Examples
 
 ```bash
-file-tree -i Cargo.lock -s target -r
+project-tree -i Cargo.lock -s target -r
 ```
 
 ```bash
-file-tree
+project-tree
 ├─ .gitignore
 ├─ Cargo.toml
 ├─ README.md
