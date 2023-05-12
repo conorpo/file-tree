@@ -1,0 +1,11 @@
+[package]
+name = "file-tree"
+version = "0.1.0"
+edition = "2021"
+categories = ["command-line-utilities", "file-system"]
+license = "MIT"
+description = "A command-line utility to display a ascii tree of files and directories."
+
+[dependencies]
+clap = { version = "4.2.7", features = ["derive"] }
+clipboard = "0.5.0"
