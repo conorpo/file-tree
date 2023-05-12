@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 categories = ["command-line-utilities", "file-system"]
 license = "MIT"
+repository = "https://github.com/conorpo/project-tree"
 description = "A command-line utility to display a ascii tree of files and directories."
 
 [dependencies]
