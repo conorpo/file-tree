@@ -34,7 +34,7 @@ project-tree [flags] [options]
 ## Examples
 
 ```bash
-project-tree -i Cargo.lock -s target -r
+project-tree -i Cargo.lock -s target -r -dirs
 ```
 
 ```bash
