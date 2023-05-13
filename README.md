@@ -46,3 +46,67 @@ project-tree
 ├── Cargo.toml
 └── README.md
 ```
+
+On another one of my projects: [pt-gpt](https://github.com/conorpo/pt-gpt)
+
+```bash
+project-tree -i .github -i frontend/.expo -i frontend/node_modules -i frontend/web-build/ -s frontend/assets -dirs
+```
+
+```bash 
+config/
+│   ├── logger.js
+│   ├── mongo_connection.js
+│   └── openai_connection.js
+controllers/
+│   ├── auth.js
+│   ├── chat.js
+│   └── user.js
+frontend/
+│   ├── assets/
+│   ├── components/
+│   │   ├── AlertModal.js
+│   │   ├── BackButton.js
+│   │   ├── Back_Icon.svg
+│   │   ├── icons8-settings.svg
+│   │   └── SettingsButton.js
+│   ├── contexts/
+│   │   └── Main.js
+│   ├── dist/
+│   │   ├── assets/
+│   │   └── bundles/
+│   ├── screens/
+│   │   ├── unit-testing/
+│   │   │   └── chat.test.js
+│   │   ├── Chat.js
+│   │   ├── Loading.js
+│   │   ├── Login.js
+│   │   └── Profile.js
+│   ├── App.js
+│   ├── app.json
+│   ├── babel.config.js
+│   ├── eas.json
+│   ├── package-lock.json
+│   └── package.json
+helpers/
+│   └── emailSender.js
+logs/
+middlewares/
+│   └── jwt_auth.js
+models/
+│   └── User.js
+node_modules/
+routes/
+│   └── api/
+│       ├── protected/
+│       │   ├── chat.js
+│       │   └── user.js
+│       └── auth.js
+.babelrc.json
+.env
+.gitignore
+app.js
+package-lock.json
+package.json
+README.md
+```
