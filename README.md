@@ -1,6 +1,6 @@
 # project-tree
 
-A simple ascii file tree generator. Designed to be used in project root. By default it will print to stdout, and copy to clipboard. By default it will not recurse into node_modules, .git, or .vscode folders.
+A simple ascii file tree generator. Designed to be used in project root. By default it will print to stdout, and copy to clipboard. By default it will not recurse into node_modules, .git, or .vscode folders. I made this so I can give ChatGPT my project tree easily, and it can better understand the context of my projects.
 
 ```rust
 //! TODO:
